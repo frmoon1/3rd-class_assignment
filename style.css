@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header-area, .menu ul, slider-area{
+    display: flex;
+}
+
+
+.header-area{
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+   margin: 0 15px; 
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu ul li a{
+    color: black;
+}
+
+.book-a-table-btn{
+    background-color: red;
+    padding: 5px 20px;
+    display: inline-block;
+    border-radius: 50px;
+}
+
+.slider-area{
+    align-items: center;
+
+}
+
+.hero-text{
+    padding-right: 20px ;
+}
+
+.hero-image{
+    padding-left: 20px;
+}
+
+.slider{
+    background-color:aliceblue;
+    padding: 50px 0;
+}
+
+.header{
+    padding: 20px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.hero-text h2, .hero-text p{
+    margin-bottom: 20px;
+}
+
+h2, p{
+    font-family: 'Roboto Slab', serif;
+}
+
+.logo{
+    font-size: 30px;
+}
